@@ -1,2 +1,2 @@
 # student-api
-Spring REST Student API
+Spring Boot REST Student API
