@@ -16,10 +16,15 @@ public class StudentRestController {
     @PostConstruct
     public void loadData() {
         theStudents = new ArrayList<>();
-
-        theStudents.add(new Student("Poornima", "Patel"));
-        theStudents.add(new Student("Mario", "Rossi"));
-        theStudents.add(new Student("Mary", "Smith"));
+        theStudents.add(new Student("Jeor", "Mormont"));
+        theStudents.add(new Student("Rickon", "Stark"));
+        theStudents.add(new Student("Daario", "Naharis"));
+        theStudents.add(new Student("Margaery", "Tyrell"));
+        theStudents.add(new Student("Robert", "Baratheon"));
+        theStudents.add(new Student("Davos", "Seaworth"));
+        theStudents.add(new Student("Daenerys", "Targaryen"));
+        theStudents.add(new Student("Cersei", "Lannister"));
+        theStudents.add(new Student("Joffrey", "Baratheon"));
     }
 
     @GetMapping("/students")
